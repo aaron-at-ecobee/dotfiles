@@ -1,0 +1,2 @@
+alias aws-login='aws sso login --profile default'
+alias aws-logout='aws sso logout'

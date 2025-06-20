@@ -1,0 +1,30 @@
+ptions ##
+defscrollback 32768
+startup_message off
+term screen-256color
+msgwait 1
+nonblock 5
+
+## Keybindings ##
+bindkey "^[0d" prev  # change window with ctrl-left
+bindkey "^[0c" next  # change window with ctrl-right
+bind = resize =
+bind + resize +10
+bind - resize -10
+bind _ resize max
+
+## Backtick ##
+#backtick 1 60 60 $HOME/bin/get_cpuusage.sh
+#backtick 2 60 60 $HOME/bin/get_freemem.sh
+#backtick 3 60 60 $HOME/bin/get_freeswap.sh
+#backtick 4 60 60 $HOME/bin/get_volume.sh
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{= KW} %H %{= Kw}|%{-} %-Lw%{= bW}%n%f %t%{-}%+Lw %=%C%a %Y-%M-%d"
+
+## hardcopydir: The directory which contains all hardcopies
+hardcopydir $HOME/.hardcopy
+
+## Set the screen title to contain the program name
+shelltitle '$ |bash'

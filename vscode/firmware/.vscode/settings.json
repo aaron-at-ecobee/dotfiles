@@ -1,0 +1,32 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "go/": true,
+        "*bin/": true,
+        "main/*bin/": true,
+        "main/*_vs/": true,
+        "main/embedded/*_vs/": true,
+        "main/embedded/jenkins/": true,
+        "main/embedded/winSimSupport/": true,
+        "main/embedded/idt_install/": true,
+        "main/embedded/athena_rs/": true,
+        "os/eos/": true,
+        "os/vos/build/": true,
+        "os/vos/sdk/": true,
+        "os/vos/selene/": true,
+        "os/vos/temp-*": true,
+        "os/vos/rtc-tool/": true,
+        "os/vos/updater_*": true,
+        "main/embedded/idt/backplatebin*": true,
+    },
+    "makefile.alwaysPreConfigure": false,
+    "makefile.makefilePath": "main/embedded/idt/Makefile",
+    "files.associations": {
+        "*.def": "cpp",
+        "ranges": "cpp"
+    }
+}

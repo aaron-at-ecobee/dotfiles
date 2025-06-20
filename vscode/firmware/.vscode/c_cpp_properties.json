@@ -1,0 +1,170 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        },
+        {
+            "name": "Attis",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "LC_PRODUCT=attis",
+                "ECOBEE_TSTAT=1",
+                "THERMOSTAT=1",
+                "GUI=1",
+                "ALEXA=0",
+                "CURL=1",
+                "YOCTO=1",
+                "USEAVSSDK=0",
+                "UUID=1",
+                "IOTCORE=1",
+                "ARPSCAN=1",
+                "EXPRUNNER=1",
+                "ADK=1",
+                "ADK_SW_AUTH=1",
+                "LS_PROXY=0",
+                "SWD=1",
+                "RADAR=0",
+                "RLOTTIE=0",
+                "UBOOT_ENV=1",
+                "HOST_SUBGIG=1",
+                "BT_FIRST_RUN=1",
+                "MOSQUITTO=1",
+                "RS485_UTIL=1",
+                "CARRIER_PLC=1",
+                "MANUFTESTS=1",
+                "ARM",
+                "ATTIS"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Ares",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "LC_PRODUCT=ares",
+                "ECOBEE_TSTAT=1",
+                "THERMOSTAT=1",
+                "GUI=1",
+                "ALEXA=1",
+                "AUDIO=1",
+                "USE_MPGPLAYER=1",
+                "CURL=1",
+                "YOCTO=1",
+                "MTK_PLATFORM=1",
+                "USEAVSSDK=1",
+                "UUID=1",
+                "IOTCORE=1",
+                "ARPSCAN=1",
+                "EXPRUNNER=1",
+                "ADK=1",
+                "LS_PROXY=0",
+                "SWD=1",
+                "RADAR=1",
+                "RLOTTIE=1",
+                "CARRIER_PLC=1",
+                "PAHO=1",
+                "MOSQUITTO=1",
+                "PWRCELL=1",
+                "ENERGY_MANAGER=1",
+                "PCS_D2D=1",
+                "MANUFTESTS=1",
+                "ARM",
+                "ARES"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Artemis",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "LC_PRODUCT=artemis",
+                "ECOBEE_TSTAT=1",
+                "THERMOSTAT=1",
+                "GUI=1",
+                "ALEXA=0",
+                "CURL=1",
+                "YOCTO=1",
+                "MTK_PLATFORM=1",
+                "USEAVSSDK=0",
+                "UUID=1",
+                "IOTCORE=1",
+                "ARPSCAN=1",
+                "EXPRUNNER=1",
+                "ADK=1",
+                "LS_PROXY=0",
+                "SWD=1",
+                "RADAR=1",
+                "RLOTTIE=1",
+                "PWRCELL=1",
+                "ENERGY_MANAGER=1",
+                "PCS_D2D=1",
+                "MOSQUITTO=1",
+                "MANUFTESTS=1",
+                "ARM",
+                "ARTEMIS"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Asteria",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "LC_PRODUCT=asteria",
+                "DOORBELL=1",
+                "CAMERA=1",
+                "MICROSERVICE=1",
+                "VIDEO=1",
+                "AUDIO=1",
+                "USE_MPGPLAYER=1",
+                "ALEXA=0",
+                "CURL=1",
+                "YOCTO=1",
+                "AMBA_PLATFORM=1",
+                "USEAVSSDK=0",
+                "UUID=1",
+                "IOTCORE=1",
+                "ARPSCAN=1",
+                "EXPRUNNER=0",
+                "ADK=1",
+                "LS_PROXY=0",
+                "RSSIMULATOR=0",
+                "SWD=1",
+                "RADAR=1",
+                "BACKPLATE_UTIL=1",
+                "ASTERIA",
+                "ARM"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
